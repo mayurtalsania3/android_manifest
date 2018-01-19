@@ -51,7 +51,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="manifest" name="android_manifest" remote="du" revision="o8x-caf" />
+  <project path="manifest" name="android_manifest" remote="frostbite" revision="o8x-caf" />
 
   <!-- external -->
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
