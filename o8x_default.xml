@@ -83,20 +83,26 @@
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="o8x-caf" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="butter" revision="lineage-15.1-caf-8952" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="o8x" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="du" revision="o8x-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="du" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="butter" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="o8x" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8998" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="du" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="butter" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="staging/lineage-15.1-caf" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="los" revision="staging/lineage-15.1-caf" />
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
@@ -108,6 +114,7 @@
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="du" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="frostbite" revision="lineage-15.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" />
@@ -140,5 +147,13 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" revision="o8x-caf" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" revision="o8x-caf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" revision="o8x-caf" />
+
+  <!-- athene -->
+  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="frostbite" />
+  <project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="frostbite" revision="frostbitten-64" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="butter" />
+  <project path="external/stlport" name="android_external_stlport" remote="los" />
+  <project path="external/bson" name="android_external_bson" remote="los" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
 </manifest>
