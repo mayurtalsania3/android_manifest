@@ -15,6 +15,21 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
+  <!-- BDFrostbite remote -->
+  <remote  name="frostbite"
+           revision="du-o8x-64"
+           fetch="https://github.com/BDFrostbite/" />
+
+  <!-- Team Butter remote -->
+  <remote  name="butter"
+           revision="lineage-15.1-64"
+           fetch="https://github.com/TeamButter/" />
+
+  <!-- LineageOS remote -->
+  <remote  name="los"
+           revision="staging/lineage-15.1"
+           fetch="https://github.com/LineageOS/" />
+
   <!-- DU REPOS -->
 
   <!-- DU REPOS -->
