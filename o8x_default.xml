@@ -86,6 +86,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="butter" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" revision="staging/lineage-15.1-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="o8x-caf" />
