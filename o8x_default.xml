@@ -106,7 +106,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" />
   <project path="packages/apps/Changelog" name="android_packages_apps_Changelog" remote="du" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="frostbite" revision="lineage-15.1" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
