@@ -17,12 +17,12 @@
 
   <!-- BDFrostbite remote -->
   <remote  name="frostbite"
-           revision="du-o8x-64"
+           revision="du-o8x"
            fetch="https://github.com/BDFrostbite/" />
 
   <!-- Team Butter remote -->
   <remote  name="butter"
-           revision="lineage-15.1-64"
+           revision="lineage-15.1"
            fetch="https://github.com/TeamButter/" />
 
   <!-- LineageOS remote -->
